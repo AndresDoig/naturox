@@ -68,6 +68,14 @@ strong {
     outline: 3px solid var(--clr-accent);
     outline-offset: 3px;
 }
+/* Set the size of the div element that contains the map */
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
+  
 
 /* Buttons */
 
@@ -125,8 +133,7 @@ h3{
     font-size: var(--fs-h3);
 }
 
-.section__subtitle--intro,
-.section__subtitle--about{
+.section__subtitle--intro{
     background: var(--clr-accent);
     padding: .25em 1em;
     font-family: var(--ff-secondary);
@@ -382,46 +389,15 @@ header {
     max-width: 1000px;
     margin: 0 auto;
 }
-
-.about-me__img {
-    box-shadow: var(--bs);
+.section__subtitle--about {
+    font-size: var(--fs-h2);
 }
-
 .about-me__body {
     font-size: var(--fs-h3);
 }
-@media (min-width: 600px) {
-    .about-me {
-        display: grid;
-        grid-template-columns: 1fr 200px;
-        grid-template-areas: 
-            "title img"
-            "subtitle img"
-            "text img";
-        grid-column-gap: 2em;
-
-    }
-
-    .section__title--about {
-        grid-column: title;
-    }
-
-    .section__subtitle--about {
-        grid-column: 1 / -1;
-        grid-row: 2;
-        position: relative;
-        left: -1em;
-        width: calc(100% + 2em);
-        padding-left: 1em;
-        padding-right: calc(200px + 4em);
-        
-    }
-
-    .about-me__img {
-        grid-area: img;
-        position: relative;
-        z-index: 2;
-    }
+.about-me__body a{
+    text-decoration: none;
+    color: var(--clr-dark);
 }
 
 /* My Work */

@@ -81,16 +81,31 @@
         <section class="about-me" id="about">
             <h2 class="section__title section__title--about">Contacto</h2>
             <p class="section__subtitle section__subtitle--about">
-                Roxana Apostol de Doig
+                Roxana Apostol de Doig 
             </p>
             <div class="about-me__body">
+                
                 <h3>Homeopata y terapeuta</h3>
                 <p>Domingo Savio 175, Urb. San Felipe, Piura, Piura</p>
-                <p>Tel: +59 980 339 683</p>
-                <p>Correo: roxana.de.doig@gmail.com</p>
+                <a href="https://wa.link/iewlyc">
+                    <i class="fab fa-whatsapp"></i>
+                +59 980 339 683
+                </a>
+                <a href="mailto:roxana.de.doig@gmail.com">
+                    <br>
+                    correo: roxana.de.doig@gmail.com
+                    <br>
+                </a>
                 
             </div>
-            <img src="img/FOTO.jpg" alt="foto roxana" class="about-me__img">
+            
+            <div id="map"></div>
+
+                <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+                
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLn2Stiiz93kyuL-aTfKd2ynNqfZafIgs&callback=initMap&libraries=places,geometry&solution_channel=GMP_QB_locatorplus_v4_cA" async defer></script>
+
+
         </section>
 
         <!-- Honorarios -->
