@@ -375,6 +375,11 @@ header {
     opacity: 0.25;
 }
 
+.price_title {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
 .prices {
     margin-bottom: 4em;
 }
