@@ -14,8 +14,8 @@
     --fw-bold: 1000;
 
     --clr-light: #fff;
-    --clr-dark: #303030;
-    --clr-accent: #517fbf;
+    --clr-dark: #01275b;
+    --clr-accent: #8c52ff;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -197,7 +197,7 @@ header {
 }
 
 .nav-toggle {
-    padding: .5;
+    padding: 5;
     background: transparent;
     border: 0;
     cursor: pointer;
@@ -230,6 +230,8 @@ header {
 .hamburger {
     display: block;
     position: relative;
+    width: 2em;
+    height: 3px;
 }
 
 .hamburger,
